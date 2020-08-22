@@ -1,0 +1,12 @@
+name = "Brush Clearing (No ACE)";
+picture = "logo_bcna_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/ampersand38/";
+description = "Destroy a bush or place a grass cutter.";
+logo = "logo_bcna_ca.paa";
+logoOver = "logo_bcna_ca.paa";
+tooltip = "Brush Clearing (No ACE)";
+tooltipOwned = "Brush Clearing (No ACE)";
+overview = "Destroy a bush or place a grass cutter.";
+author = "Ampersand";
+overviewPicture = "logo_bcna_ca.paa";
