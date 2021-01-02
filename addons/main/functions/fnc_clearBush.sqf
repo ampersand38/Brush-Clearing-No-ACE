@@ -27,7 +27,7 @@ if (_intersectObj isEqualTo objNull && {_parentObject isEqualTo objNull}) then {
 } else {
 	//not terrain
 	private _bushes = nearestTerrainObjects [_intersectObj, ["Bush"], 0];
-	if !(_bushes isEqualTo [] && {_intersectObj in _bushes}) then {
+	if (!(_bushes isEqualTo []) && {_intersectObj in _bushes}) then {
 		//map bush, destroy
 		_intersectObj setDamage 1;
 	};
